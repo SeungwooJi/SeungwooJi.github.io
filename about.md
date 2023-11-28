@@ -3,6 +3,6 @@ layout: post
 title: About
 ---
 
-This is an example page!
+공부하면서 배우고 경험한 것들을 기록하고 지식을 공유하는 공간입니다
 
-Actually, it has the same layout of a post...
+제가 배운 것을 공유하고 공유한 내용에 대해 의견을 나누면서 서로 성장하는 공간이 되었으면 하는 바람입니다

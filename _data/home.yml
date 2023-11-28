@@ -6,34 +6,20 @@ navbar_entries:
     url: blog
 
   - title: website
-    url: https://www.abhinav.co
+    url: https://github.com/SeungwooJi  
 
 project_entries:
-  - title: Project 1
+  - title: 웹프로그래밍
     url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+    desc: 
 
-  - title: Project 2
+  - title: 오픈소스 sw
     url: overview-post
-    desc: Projects are shown in card layout
+    desc: 오픈 소스 소프트웨어 개발과 GitHub를 활용한 협업,마크다운 문서 작성
 
-  - title: Project 3
+  - title: 데이터통신
     url: overview-post
     desc: You can control visibility from _config.yml file
-
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
-
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
   - title: Soopr
@@ -54,17 +40,12 @@ old_project_entries:
     desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
-
-  - title: twitter
-    url: https://twitter.com/abhinav
-
   - title: github
-    url: https://github.com/abhinavs
+    url: https://github.com/SeungwooJi
 
-  - title: feed
-    url: feed.xml
+  - title: instagram
+    url: https://www.instagram.com/j0s0w
+
 
 misc_entries:
   - title: this is an example vertical list
