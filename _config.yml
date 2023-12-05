@@ -8,9 +8,6 @@ permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
 
-twitter:
-    username: abhinav # update or delete this
-    card: summary_large_image
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 remote_theme: abhinavs/moonwalk
@@ -33,10 +30,10 @@ theme_config:
   show_tags: true # show tags in a blog posts
   # options for "home" page
   home:
-    title_projects: 공부하고 있는 것
+    title_projects: 이번학기 수강중인 과목
     title_misc_list: Details
     title_blog: Blog
-    title_old_projects: 이전에 공부했던 것
+    title_old_projects: 이전학기 수강했던 과목
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
 

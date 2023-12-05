@@ -12,20 +12,26 @@ project_entries:
   - title: 웹프로그래밍
     url: overview-post
     desc: 
+    highlight: NEW
+
 
   - title: 오픈소스 sw
     url: overview-post
     desc: 오픈 소스 소프트웨어 개발과 GitHub를 활용한 협업,마크다운 문서 작성
+    highlight: NEW
+
 
   - title: 데이터통신
     url: overview-post
     desc: You can control visibility from _config.yml file
+    highlight: NEW
+
 
 old_project_entries:
-  - title: Soopr
+  - title: 머신러닝
     url: https://www.soopr.co
     desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
+    
 
   - title: Cookie
     url: https://github.com/abhinavs/cookie
