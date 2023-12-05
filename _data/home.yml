@@ -10,7 +10,7 @@ navbar_entries:
 
 project_entries:
   - title: 웹프로그래밍
-    desc: 
+    desc: Servlet/JSP를 통해 웹 서버 프로그래밍의 기본 개념과 동작 원리에 대해 이해, Spring Web MVC 기술과 myBatis 프레임워크를 활용하여 웹 서버 애플리케이션을 구현
     highlight: NEW
 
 
@@ -20,7 +20,7 @@ project_entries:
 
 
   - title: 데이터통신
-    desc: 
+    desc: 데이터 통신의 기본 개념을 이해하고 데이터 통신 필요한 네트워크 구조, 전송매체, 전송신호, 전송대역폭, 인코딩, 프로토콜, OSI 참조모델, LAN 등에 대해 알아봄
     highlight: NEW
 
 
