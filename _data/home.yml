@@ -10,39 +10,32 @@ navbar_entries:
 
 project_entries:
   - title: 웹프로그래밍
-    url: overview-post
     desc: 
     highlight: NEW
 
 
   - title: 오픈소스 sw
-    url: overview-post
     desc: 오픈 소스 소프트웨어 개발과 GitHub를 활용한 협업,마크다운 문서 작성
     highlight: NEW
 
 
   - title: 데이터통신
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+    desc: 
     highlight: NEW
 
 
 old_project_entries:
   - title: 머신러닝
-    url: https://www.soopr.co
     desc: Delight your readers - add beautiful share and like buttons easily to your websites 
     
 
   - title: Cookie
-    url: https://github.com/abhinavs/cookie
     desc: An open source landing website with supporting pages and integrated blog
 
   - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
     desc: A fast and minimalist Jekyll blog theme with clean dark mode
 
   - title: Humangous
-    url: https://www.humangous.co
     desc: The better people know you, the better they collaborate
 
 footer_entries:
