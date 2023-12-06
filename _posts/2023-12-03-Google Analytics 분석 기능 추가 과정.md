@@ -5,73 +5,43 @@ tags: [overview, moonwalk]
 ---
 
 ## Google Analytics
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.
+    
+Google Analytics는 웹사이트 및 앱의 트래픽을 추적하고 분석하기 위한 Google의 무료 웹 분석 서비스입니다  이 도구를 사용하면 사용자가 웹사이트나 앱에서 어떻게 상호작용하는지에 대한 풍부한 정보를 얻을 수 있습니다 이번 포스팅에서는 이 Google Analytics를 Jekyll 블로그에 적용하는 과정을 다루겠습니다
 
-## Lists
 
-Unordered:
+## 설정
 
-- Fusce non velit cursus ligula mattis convallis vel at metus[^2].
-- Sed pharetra tellus massa, non elementum eros vulputate non.
-- Suspendisse potenti.
+### Google Analytics 계정 설정
+ 1.  [Google Analytics](https://analytics.google.com)로 이동하여 로그인하거나 측정 시작을 눌러 계정을 생성합니다. (아래 내용은 제 기준으로 작성됬으며 필요하신 설정을 체크 하신 후 진행하시면 됩니다.)
+ - 계정 생성 (계정 이름)
+ - 계정 데이터 공유 설정(저 같은 경우에는 모두 체크 후 다음으로 이동)
+ - 속성 이름 (잘 모르겠지만 저는 계정 생성 할 때와 동일 한 이름으로 진행)
+ - 보고 시간대, 통화 변경(대한민국)
+ - 업종 - 컴퓨터 및 전자제품 선택
+ - 비즈니스 규모 작음 선택
+ - 비즈니스 목표
+    - 리드 생성과 사용자 행동 검토 선택
+- 동의함
 
-Ordered:
+- 플랫폼 - 웹 선택
 
-1. Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc.
-2. Sed massa quam, auctor in eros quis, porttitor tincidunt orci.
-3. Nulla convallis id sapien ornare viverra.
-4. Nam a est eget ligula pellentesque posuere.
+![analytics2.png](images/analytics2.png)
 
-## Blockquote
+- 데이터 스트림 설정 페이지가 뜨면 자신의 블로그 웹사이트 url과 스트림 이름 설정 후 스트림 만들기
 
-The following is a blockquote:
+![analytics1.png](images/analytics1.png)
 
-> Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus.
+### 2. Jekyll 블로그에 추적 코드 추가
+1. Jekyll 블로그의 _config.yml 파일을 엽니다
+2. analytics 관련 설정이 있는지 찾아보고, 적절히 수정하라는 설명이 있지만 저 같은 경우에는 관련 내용이 없었으므로 
+3. 애널리스트 데이터 수집 및 수정에서 데이터 스트림을 클릭하고 맨 밑 태그 안내보기를 클릭
+4. 직접 설치를 클릭해서 나온 Google 태그를 복사
+3. _includes 폴더 내의 head.html 파일을 열어 \<head> 요소 바로 다음에 붙여넣습니다
+4. 변경사항을 모두 저장하고 Github에 커밋 및 푸시합니다
 
-## Thematic breaks (<hr>)
+테스트 결과 정상적으로 작동하는 것을 볼 수 있습니다.
 
-Mauris viverra dictum ultricies[^3]. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **You can put some text inside the horizontal rule like so.**
+![analytics3.png](images/analytics3.png)
 
----
-{: data-content="hr with text"}
+![analytics4.png](images/analytics4.png)
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **Or you can just have an clean horizontal rule.**
-
----
-
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. Or you can just have an clean horizontal rule.
-
-## Code
-
-Now some code:
-
-```
-const ultimateTruth = 'follow middlepath';
-console.log(ultimateTruth);
-```
-
-And here is some `inline code`!
-
-## Tables
-
-Now a table:
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-## Images
-
-![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
-
-This is an image[^4]
-
----
-{: data-content="footnotes"}
-
-[^1]: this is a footnote. You should reach here if you click on the corresponding superscript number.
-[^2]: hey there, don't forget to read all the footnotes!
-[^3]: this is another footnote.
-[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not; hope that there are no problems but you know sometimes problems arise from nowhere.
