@@ -26,18 +26,13 @@ project_entries:
 
 old_project_entries:
   - title: 머신러닝
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+
+  - title: Python 프로그래밍
+
+  - title: Java 프로그래밍
     
-
-  - title: Cookie
-    desc: An open source landing website with supporting pages and integrated blog
-
-  - title: Moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    desc: The better people know you, the better they collaborate
-
+  - title: 웹개발입문
+    
 footer_entries:
   - title: github
     url: https://github.com/SeungwooJi
